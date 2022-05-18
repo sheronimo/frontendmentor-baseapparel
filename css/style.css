@@ -141,18 +141,6 @@ body {
 	margin-top: 0.625rem;
 }
 
-.susbcribe-form.error .form-input {
-	border-color: var(--clr-secondary);
-}
-
-.susbcribe-form.error .icon-error {
-	display: block;
-}
-
-.susbcribe-form.error .error-msg {
-	display: block;
-}
-
 .marketing-img-mobile {
 	display: none;
 }
