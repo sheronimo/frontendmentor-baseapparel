@@ -141,6 +141,7 @@ body {
 	padding-inline: 2rem;
 	font-size: 0.875rem;
 	margin-top: 0.625rem;
+	text-align: left;
 }
 
 .marketing-img-mobile {
@@ -150,4 +151,42 @@ body {
 .marketing-img-desktop {
 	background: url('../images/hero-desktop.jpg') no-repeat top center/cover;
 	width: 42%;
+}
+
+@media (max-width: 37.5rem) {
+	.container {
+		flex-direction: column;
+	}
+
+	.marketing {
+		background: var(--gradient-background);
+		width: 100%;
+		min-height: 100vh;
+	}
+
+	.marketing-textwrap {
+		max-width: 31.25rem;
+		margin-inline: auto;
+		padding: 0;
+	}
+
+	.logo-img {
+		padding: 2rem;
+		margin-bottom: 0;
+	}
+
+	.text-chunk {
+		padding-inline: 2rem;
+		padding-block: 4rem;
+		text-align: center;
+	}
+
+	.marketing-img-mobile {
+		display: block;
+		width: 100%;
+	}
+
+	.marketing-img-desktop {
+		display: none;
+	}
 }
