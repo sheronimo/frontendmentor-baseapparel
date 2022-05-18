@@ -45,6 +45,7 @@ img {
 /* Main Page */
 body {
 	font-family: var(--fs);
+	line-height: 1.5;
 }
 
 .container {
@@ -61,6 +62,29 @@ body {
 	margin-inline: auto;
 	padding-block: 4rem;
 	padding-inline: 2rem;
+}
+
+.logo-img {
+	margin-bottom: 8.5rem;
+}
+
+.title {
+	font-size: 3.75rem;
+	display: flex;
+	flex-direction: column;
+	line-height: 1.2;
+	text-transform: uppercase;
+	letter-spacing: 0.625rem;
+}
+
+.thin {
+	font-weight: 300;
+	color: var(--clr-primary);
+}
+
+.thick {
+	font-weight: 600;
+	color: var(--clr-neutral);
 }
 
 .marketing-img-mobile {
