@@ -59,6 +59,7 @@ body {
 .marketing {
 	background: url('../images/bg-pattern-desktop.svg') no-repeat bottom
 		right/cover;
+
 	width: 58%;
 }
 
@@ -120,6 +121,7 @@ body {
 	position: absolute;
 	top: 0;
 	right: 0;
+	box-shadow: hsla(0, 0%, 0%, 0.176) 0px 1rem 3rem 0px;
 }
 
 .btn-submit:hover {
