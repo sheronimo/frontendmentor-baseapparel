@@ -41,3 +41,33 @@ img {
 	max-width: 100%;
 	display: block;
 }
+
+/* Main Page */
+body {
+	font-family: var(--fs);
+}
+
+.container {
+	min-height: 100vh;
+	display: flex;
+}
+
+.marketing {
+	width: 58%;
+}
+
+.marketing-textwrap {
+	max-width: 31.25rem;
+	margin-inline: auto;
+	padding-block: 4rem;
+	padding-inline: 2rem;
+}
+
+.marketing-img-mobile {
+	display: none;
+}
+
+.marketing-img-desktop {
+	background: url('../images/hero-desktop.jpg') no-repeat top center/cover;
+	width: 42%;
+}
